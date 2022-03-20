@@ -1,0 +1,74 @@
+PS C:\Users\Utreth> code --list-extensions | % { "code --install-extension $_" }
+
+code --install-extension agutierrezr.emmet-keybindings
+code --install-extension burkeholland.simple-react-snippets
+code --install-extension carbonid1.emmet-jss
+code --install-extension chrisdias.vscode-opennewinstance
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension donjayamanne.jquerysnippets
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension Equinusocio.vsc-community-material-theme
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension firefox-devtools.vscode-firefox-debug
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-complete-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.code-runner
+code --install-extension formulahendry.terminal
+code --install-extension Gajesh1.React-JS-snnipets
+code --install-extension golang.go
+code --install-extension Gruntfuggly.activitusbar
+code --install-extension hasanakg.firebase-snippets
+code --install-extension HookyQR.beautify
+code --install-extension ionutvmi.path-autocomplete
+code --install-extension joshjg.generate-react-component
+code --install-extension mechatroner.rainbow-csv
+code --install-extension mhmadhamster.postcss-language
+code --install-extension midnightsyntax.vscode-wrap-console-log
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension MS-CEINTL.vscode-language-pack-es
+code --install-extension ms-mssql.data-workspace-vscode
+code --install-extension ms-mssql.mssql
+code --install-extension ms-mssql.sql-database-projects-vscode
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode.powershell-preview
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension naumstory.vscode-csscomb
+code --install-extension necinc.elmmet
+code --install-extension octref.vetur
+code --install-extension PKief.material-icon-theme
+code --install-extension pmneo.tsimporter
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension rangav.vscode-thunder-client
+code --install-extension ritwickdey.live-sass
+code --install-extension ritwickdey.LiveServer
+code --install-extension sdras.vue-vscode-snippets
+code --install-extension Shan.code-settings-sync
+code --install-extension shardulm94.trailing-spaces
+code --install-extension sldobri.bunker
+code --install-extension tomoki1207.pdf
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension wix.vscode-import-cost
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extension xabikos.ReactSnippets
+code --install-extension ysemeniuk.emmet-live
+
+Visual Studio Code busca extensiones en la carpeta de extensiones .vscode / extensions. Dependiendo de su plataforma se ubica:
+
+Windows %USERPROFILE%.vscodeextensions
+Mac ~/.vscode/extensions
+Linux ~/.vscode/extensions
+Eso debería mostrarte una lista de las extensiones.
+
+También he tenido éxito al usar la Extensión de sincronización de configuración de código de Visual Studio para sincronizar la configuración con la esencia de GitHub.
+
+En la última versión de Visual Studio Code (mayo de 2016), ahora es posible enumerar las extensiones instaladas en la línea de comando:
+
+code --list-extensions
